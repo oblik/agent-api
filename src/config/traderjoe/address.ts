@@ -1,0 +1,22 @@
+export default {
+  1: {
+    factory: "0xDC8d77b69155c7E68A95a4fb0f06a71FF90B943a",
+    router: "0x9A93a421b74F1c5755b83dD2C211614dC419C44b",
+    quoter: "0x4d6Dbd1b52807C71b9a148E222b167247a7cA789",
+  },
+  56: {
+    factory: "0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
+    router: "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30",
+    quoter: "0xd76019A16606FDa4651f636D9751f500Ed776250",
+  },
+  42161: {
+    factory: "0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
+    router: "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30",
+    quoter: "0xd76019A16606FDa4651f636D9751f500Ed776250",
+  },
+  // 43114: {
+  // factory: "0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
+  // router: "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30",
+  // quoter: "0xd76019A16606FDa4651f636D9751f500Ed776250",
+  // },
+};

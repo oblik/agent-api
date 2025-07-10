@@ -1,0 +1,10 @@
+export default {
+  42161: {
+    default: "0xc873fEcbd354f5A56E00E710B90EF4201db2448d",
+    camelot: "0xc873fEcbd354f5A56E00E710B90EF4201db2448d",
+    dividendsV2: "0x5422AA06a38fd9875fc2501380b40659fEebD3bB",
+    factory: "0x6EcCab422D763aC031210895C81787E87B43A652",
+    factoryV3: "0x1a3c9B1d2F0529D97f2afC5136Cc23e58f1FD35B",
+    positionManager: "0x00c7f3082833e796A5b3e4Bd59f6642FF44DCD15",
+  },
+};

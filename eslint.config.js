@@ -1,0 +1,58 @@
+import js from "@eslint/js";
+import jest from "eslint-plugin-jest";
+import tseslint from "typescript-eslint";
+
+export default tseslint.config(
+  {
+    ignores: ["**/*.js", "**/*.cjs", "**/analytics_utils/**"],
+  },
+  js.configs.recommended,
+  ...tseslint.configs.recommendedTypeChecked,
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
+  },
+  {
+    files: ["**/*.ts", "**/*.tsx"],
+    rules: {
+      "no-await-in-loop": "warn",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-unsafe-argument": "off",
+      "@typescript-eslint/no-unsafe-assignment": "off",
+      "@typescript-eslint/no-unsafe-call": "off",
+      "@typescript-eslint/no-unsafe-member-access": "off",
+      "@typescript-eslint/no-unsafe-return": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/restrict-template-expressions": "off",
+      "@typescript-eslint/require-await": "off",
+      "@typescript-eslint/no-base-to-string": "off",
+      "@typescript-eslint/await-thenable": "off",
+      "@typescript-eslint/prefer-promise-reject-errors": "off",
+      "@typescript-eslint/only-throw-error": "off",
+      "@typescript-eslint/no-redundant-type-constituents": "off",
+      "@typescript-eslint/no-unnecessary-type-assertion": "off",
+      "@typescript-eslint/no-misused-promises": [
+        "error",
+        { checksVoidReturn: false },
+      ],
+    },
+  },
+  {
+    files: ["src/__tests__/**"],
+    ...jest.configs["flat/recommended"],
+    rules: {
+      ...jest.configs["flat/recommended"].rules,
+      "@typescript-eslint/unbound-method": "off",
+      "jest/unbound-method": "error",
+      "jest/no-disabled-tests": "off",
+      "jest/no-commented-out-tests": "off",
+      "jest/valid-title": "off",
+      "jest/no-conditional-expect": "off",
+      "jest/expect-expect": "off",
+    },
+  },
+);

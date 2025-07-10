@@ -1,0 +1,18 @@
+export default {
+  1: "The sender is not authorized to perform this action.",
+  2: "An invalid argument was supplied by the caller.",
+  3: "The action would violate the comptroller policy.",
+  4: "An internal calculation has failed in the comptroller.",
+  5: "The interest rate model returned an invalid value.",
+  6: "The specified combination of accounts is invalid.",
+  7: "The amount to liquidate is invalid.",
+  8: "The collateral factor is invalid.",
+  9: "A math calculation error occurred.",
+  10: "Interest has not been properly accrued.",
+  11: "The market is not currently listed by its comptroller.",
+  12: "ERC-20 contract must allow Money Market contract to call transferFrom. The current allowance is either 0 or less than the requested supply, repayBorrow or liquidate amount.",
+  13: "Caller does not have sufficient balance in the ERC-20 contract to complete the desired action.",
+  14: "The market does not have a sufficient cash balance to complete the transaction. You may attempt this transaction again later.",
+  15: "Failure in ERC-20 when transfering token into the market.",
+  16: "Failure in ERC-20 when transfering token out of the market.",
+};

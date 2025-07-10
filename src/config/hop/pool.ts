@@ -1,0 +1,26 @@
+export default {
+  42161: ["usdc", "usdt", "dai", "eth", "reth-rpl", "magic"],
+  10: [
+    "usdc",
+    "usdt",
+    "dai",
+    "eth",
+    "snx",
+    "snx-op",
+    "susd",
+    "susd-op",
+    "reth-rpl",
+  ],
+  137: [
+    "usdc-wmatic",
+    "usdc",
+    "usdt-wmatic",
+    "usdt",
+    "dai-wmatic",
+    "dai",
+    "matic-wmatic",
+    "eth-wmatic",
+    "eth",
+  ],
+  8453: ["usdc", "eth"],
+};

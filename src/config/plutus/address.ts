@@ -1,0 +1,10 @@
+export default {
+  42161: {
+    plvglp: "0x4E5Cf54FdE5E1237e80E87fcbA555d829e1307CE",
+    plsspa: "0x73e7c78E8a85C074733920f185d1c78163b555C8",
+    plsjones: "0x23B87748b615096d1A0F48870daee203A720723D",
+    masterchef: "0x5593473e318F0314Eb2518239c474e183c4cBED5",
+    router: "0xca24cf44c863f7709b7ea0c08ff88b994063684b",
+    lockedPls: "0xcf5C2c23D1D864ef3cAbd90b57b2ea3e6D9bA814",
+  },
+};

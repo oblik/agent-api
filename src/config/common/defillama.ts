@@ -1,0 +1,42 @@
+export default {
+  projects: {
+    curve: "curve-dex",
+    aave: "aave-v3",
+    gmx: "gmx-v2",
+    rocketpool: "rocket-pool",
+    jonesdao: "jones-dao",
+    hop: "hop-protocol",
+    pendle: "pendle",
+    yearn: "yearn-finance",
+  } as Record<string, string>,
+  symbols: {
+    curve: {
+      "3pool": "DAI-USDC-USDT",
+      steth: "ETH-STETH",
+      fraxusdc: "FRAX-USDC",
+      tricrypto2: "USDT-WBTC-WETH",
+      fraxusdp: "FRAX-USDP",
+    },
+    yearn: {
+      yeth: "YETH-F",
+    },
+    pendle: {
+      weeth: "EETH",
+      susde: "SUSDE",
+      "zs-ezeth": "EZETH(ZIRCUIT)",
+      ezeth: "EZETH",
+      pufeth: "PUFETH",
+      rseth: "RSETH",
+      "zs-weeth": "EETH(ZIRCUIT)",
+      "zs-rseth": "RSETH(ZIRCUIT)",
+      usde: "USDE",
+      rsweth: "RSWETH",
+      "zs-usde": "USDE(ZIRCUIT)",
+      steth: "STETH",
+      mpendle: "MPENDLE",
+      uniETH: "UNIETH",
+      ena: "ENA",
+      curusd: "CRVUSD",
+    },
+  },
+} as Record<string, Record<string, string | Record<string, string>>>;
